@@ -1,0 +1,37 @@
+# Block the local data directory from ever being tracked by Git
+data/
+#block the extraction folder
+**/__MACOSX/
+**/EchoNet-Dynamic/
+# Block any zip downloads
+*.zip
+**/*.zip
+# Block your Python virtual environment
+venv/
+.venv/
+env/
+
+#Python runtime and cache files
+__pycache__/
+*.pyc
+*.pyo
+*pyd
+.pytest_cache/
+
+Editor Settings
+.vscode/
+.DS_Store
+THumbs.db
+
+#Personal Practice files
+
+Practice/
+practice/
+pixel.py
+
+#Blocking any scratchpad file starting with scratchpad or test
+scratch_/
+test_/
+
+zip_extract.py
+#Learning pixel grid.py
